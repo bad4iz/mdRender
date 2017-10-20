@@ -5,8 +5,19 @@ $Parsedown = new Parsedown();
 $title = '';
 $page = '';
 $routes = $_SERVER['REQUEST_URI'];
-if ($routes) {
+if ($routes == '/'){
+  $file = '/md/index.md';
+  $fileGIt = '/md/index.md';
+
+  $pageTmp = file_get_contents($file);
+  $pos = strpos($pageTmp, '---', 10);
+  $page = substr($pageTmp, $pos + 3);
+
+  $titleTmp = substr($pageTmp, 0, $pos);
+  $title = explode("title:", $titleTmp)[1];
+} else {
   $file = './md' . $routes . '.md';
+  $fileGIt = $routes . '.md';
 
   $pageTmp = file_get_contents($file);
   $pos = strpos($pageTmp, '---', 10);
@@ -56,7 +67,7 @@ if ($routes) {
       <hr/>
       <div class="col-md-8 docs-content">
         <div class="edit-panel" style="margin: 0 0 1em 0;">
-          <a href="bad4iz/ru.slimframework.com/docs/start/<? $file ?>" target="_blank" class="btn btn-default btn-xs"><i
+          <a href="https://github.com/bad4iz/slim.ru/blob/master<?=$fileGIt ?>" target="_blank" class="btn btn-default btn-xs"><i
                     class="fa fa-github"></i> редактировать страницу </a>
         </div>
         <?= $Parsedown->text($page); ?>
@@ -70,7 +81,9 @@ if ($routes) {
   </div>
 </div>
 
-<script src="./assets/scripts/build/production.min.js"></script>
+<script src="/assets/scripts/build/jquery.min.js"></script>
+<script src="/assets/scripts/build/production.min.js"></script>
+
 </body>
 </html>
 

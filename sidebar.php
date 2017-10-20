@@ -32,226 +32,100 @@
 <!--</div>-->
 
 
-<h3 class="toc-title active">Get Started</h3>
+<h3 class="toc-title active">Начнем</h3>
 <ul class="toc-links">
-
-
-  <li><a href="/index">Home</a></li>
-
-
-  <li><a href="/start/installation">Installation</a></li>
-
-
-  <li><a href="/start/upgrade">Upgrade Guide</a></li>
-
-
-  <li><a href="/start/web-servers">Web Servers</a></li>
-
-
-  <li><a href="/deployment/deployment">Deployment</a></li>
-
+  <li><a href="/index">Домашняя</a></li>
+  <li><a href="/start/installation">Установка</a></li>
+  <li><a href="/start/upgrade">Руководство по обновлению</a></li>
+  <li><a href="/start/web-servers">Веб сервер</a></li>
+  <li><a href="/deployment/deployment">Развертывание</a></li>
 </ul>
 
-
-<h3 class="toc-title">Tutorial</h3>
+<h3 class="toc-title">Учебное пособие</h3>
 <ul class="toc-links">
-
-
-  <li><a href="tutorial/first-app.html">First Application</a></li>
-
+  <li><a href="tutorial/first-app">Первое применение</a></li>
 </ul>
 
-
-<h3 class="toc-title">Concepts</h3>
+<h3 class="toc-title">Концепции</h3>
 <ul class="toc-links">
-
-
-  <li><a href="concepts/value-objects.html">PSR 7</a></li>
-
-
-  <li><a href="concepts/middleware.html">Middleware</a></li>
-
-
-  <li><a href="concepts/di.html">Dependency Container</a></li>
-
+  <li><a href="concepts/value-objects">PSR 7</a></li>
+  <li><a href="concepts/middleware">Промежуточное</a></li>
+  <li><a href="concepts/di">Контейнер зависимости</a></li>
 </ul>
 
-
-<h3 class="toc-title">The Application</h3>
+<h3 class="toc-title">Приложение</h3>
 <ul class="toc-links">
-
-
-  <li><a href="objects/application.html">Overview</a></li>
-
-
-  <li><a href="objects/application.html#application-configuration">Configuration</a></li>
-
-
-  <li><a href="objects/application.html#slim-default-settings">Default settings</a></li>
-
+  <li><a href="objects/application">Обзор</a></li>
+  <li><a href="objects/application#application-configuration">Конфигурация</a></li>
+  <li><a href="objects/application#slim-default-settings">Настройки по умолчанию</a></li>
 </ul>
 
-
-<h3 class="toc-title">The Request</h3>
+<h3 class="toc-title">Запрос</h3>
 <ul class="toc-links">
-
-
-  <li><a href="objects/request.html">Overview</a></li>
-
-
-  <li><a href="objects/request.html#the-request-method">Method</a></li>
-
-
-  <li><a href="objects/request.html#the-request-headers">Headers</a></li>
-
-
-  <li><a href="objects/request.html#the-request-body">Body</a></li>
-
-
-  <li><a href="objects/request.html#uploaded-files">Uploaded Files</a></li>
-
-
-  <li><a href="objects/request.html#request-helpers">Helpers</a></li>
-
-
-  <li><a href="objects/request.html#route-object">Route object</a></li>
-
-
-  <li><a href="objects/request.html#media-type-parsers">Media type parsers</a></li>
-
+  <li><a href="objects/request">Обзор</a></li>
+  <li><a href="objects/request#the-request-method">Метод</a></li>
+  <li><a href="objects/request#the-request-headers">Заголовки</a></li>
+  <li><a href="objects/request#the-request-body">Тело</a></li>
+  <li><a href="objects/request#uploaded-files">Загруженные файлы</a></li>
+  <li><a href="objects/request#request-helpers">Помощьники</a></li>
+  <li><a href="objects/request#route-object">Обьект маршрута</a></li>
+  <li><a href="objects/request#media-type-parsers">Анализаторы типов мультимедиа</a></li>
 </ul>
-
 
 <h3 class="toc-title">The Response</h3>
 <ul class="toc-links">
-
-
-  <li><a href="objects/response.html">Overview</a></li>
-
-
-  <li><a href="objects/response.html#the-response-status">Status</a></li>
-
-
-  <li><a href="objects/response.html#the-response-headers">Headers</a></li>
-
-
-  <li><a href="objects/response.html#the-response-body">Body</a></li>
-
-
-  <li><a href="objects/response.html#returning-json">JSON</a></li>
-
+  <li><a href="objects/response">Overview</a></li>
+  <li><a href="objects/response#the-response-status">Status</a></li>
+  <li><a href="objects/response#the-response-headers">Headers</a></li>
+  <li><a href="objects/response#the-response-body">Body</a></li>
+  <li><a href="objects/response#returning-json">JSON</a></li>
 </ul>
-
 
 <h3 class="toc-title">Routing</h3>
 <ul class="toc-links">
-
-
-  <li><a href="objects/router.html">Overview</a></li>
-
-
-  <li><a href="objects/router.html#how-to-create-routes">Create Routes</a></li>
-
-
-  <li><a href="objects/router.html#route-callbacks">Callbacks</a></li>
-
-
-  <li><a href="objects/router.html#route-strategies">Strategies</a></li>
-
-
-  <li><a href="objects/router.html#route-placeholders">Placeholders</a></li>
-
-
-  <li><a href="objects/router.html#route-names">Names</a></li>
-
-
-  <li><a href="objects/router.html#route-groups">Groups</a></li>
-
-
-  <li><a href="objects/router.html#route-middleware">Middleware</a></li>
-
-
-  <li><a href="objects/router.html#container-resolution">Container Resolution</a></li>
-
+  <li><a href="objects/router">Overview</a></li>
+  <li><a href="objects/router#how-to-create-routes">Create Routes</a></li>
+  <li><a href="objects/router#route-callbacks">Callbacks</a></li>
+  <li><a href="objects/router#route-strategies">Strategies</a></li>
+  <li><a href="objects/router#route-placeholders">Placeholders</a></li>
+  <li><a href="objects/router#route-names">Names</a></li>
+  <li><a href="objects/router#route-groups">Groups</a></li>
+  <li><a href="objects/router#route-middleware">Middleware</a></li>
+  <li><a href="objects/router#container-resolution">Container Resolution</a></li>
 </ul>
 
 
 <h3 class="toc-title">Error Handling</h3>
 <ul class="toc-links">
-
-
-  <li><a href="handlers/error.html">Error Handlers</a></li>
-
-
-  <li><a href="handlers/not-found.html">404 Not Found</a></li>
-
-
-  <li><a href="handlers/not-allowed.html">405 Not Allowed</a></li>
-
-
-  <li><a href="handlers/php-error.html">PHP Runtime Error</a></li>
-
+  <li><a href="handlers/error">Error Handlers</a></li>
+  <li><a href="handlers/not-found">404 Not Found</a></li>
+  <li><a href="handlers/not-allowed">405 Not Allowed</a></li>
+  <li><a href="handlers/php-error">PHP Runtime Error</a></li>
 </ul>
-
 
 <h3 class="toc-title">Cook book</h3>
 <ul class="toc-links">
-
-
-  <li><a href="cookbook/route-patterns.html">Trailing / in routes</a></li>
-
-
-  <li><a href="cookbook/ip-address.html">Retrieving IP address</a></li>
-
-
-  <li><a href="cookbook/retrieving-current-route.html">Retrieving Current Route</a></li>
-
-
-  <li><a href="cookbook/database-eloquent.html">Using Eloquent with Slim</a></li>
-
-
-  <li><a href="cookbook/enable-cors.html">Enabling CORS</a></li>
-
-
-  <li><a href="cookbook/environment.html">Getting and Mocking the Environment</a></li>
-
-
-  <li><a href="cookbook/uploading-files.html">Uploading Files using POST forms</a></li>
-
-
-  <li><a href="cookbook/action-domain-responder.html">Action-Domain-Responder with Slim</a></li>
-
+  <li><a href="cookbook/route-patterns">Trailing / in routes</a></li>
+  <li><a href="cookbook/ip-address">Retrieving IP address</a></li>
+  <li><a href="cookbook/retrieving-current-route">Retrieving Current Route</a></li>
+  <li><a href="cookbook/database-eloquent">Using Eloquent with Slim</a></li>
+  <li><a href="cookbook/enable-cors">Enabling CORS</a></li>
+  <li><a href="cookbook/environment">Getting and Mocking the Environment</a></li>
+  <li><a href="cookbook/uploading-files">Uploading Files using POST forms</a></li>
+  <li><a href="cookbook/action-domain-responder">Action-Domain-Responder with Slim</a></li>
 </ul>
-
 
 <h3 class="toc-title">Add Ons</h3>
 <ul class="toc-links">
-
-
-  <li><a href="features/templates.html">Templates</a></li>
-
-
-  <li><a href="features/caching.html">HTTP Caching</a></li>
-
-
-  <li><a href="features/csrf.html">CSRF Protection</a></li>
-
-
-  <li><a href="features/flash.html">Flash Messages</a></li>
-
-
+  <li><a href="features/templates">Templates</a></li>
+  <li><a href="features/caching">HTTP Caching</a></li>
+  <li><a href="features/csrf">CSRF Protection</a></li>
+  <li><a href="features/flash">Flash Messages</a></li>
   <li><a href="https://github.com/slimphp/Slim/wiki/Middleware-for-Slim-Framework-v3.x/">3rd Party</a></li>
-
 </ul>
-
 
 <h3 class="toc-title">Contributing</h3>
 <ul class="toc-links">
-
-
-  <li><a href="contributors/strategy.html">Branching Strategy</a></li>
-
-
-  <li><a href="contributors/guidelines.html">Guidelines</a></li>
-
+  <li><a href="contributors/strategy">Branching Strategy</a></li>
+  <li><a href="contributors/guidelines">Guidelines</a></li>
 </ul>
