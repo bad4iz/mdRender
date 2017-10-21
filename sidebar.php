@@ -43,89 +43,89 @@
 
 <h3 class="toc-title">Учебное пособие</h3>
 <ul class="toc-links">
-  <li><a href="tutorial/first-app">Первое применение</a></li>
+  <li><a href="/tutorial/first-app">Первое приложение</a></li>
 </ul>
 
 <h3 class="toc-title">Концепции</h3>
 <ul class="toc-links">
-  <li><a href="concepts/value-objects">PSR 7</a></li>
-  <li><a href="concepts/middleware">Промежуточное</a></li>
-  <li><a href="concepts/di">Контейнер зависимости</a></li>
+  <li><a href="/concepts/value-objects">PSR 7</a></li>
+  <li><a href="/concepts/middleware">Промежуточное</a></li>
+  <li><a href="/concepts/di">Контейнер зависимости</a></li>
 </ul>
 
 <h3 class="toc-title">Приложение</h3>
 <ul class="toc-links">
-  <li><a href="objects/application">Обзор</a></li>
-  <li><a href="objects/application#application-configuration">Конфигурация</a></li>
-  <li><a href="objects/application#slim-default-settings">Настройки по умолчанию</a></li>
+  <li><a href="/objects/application">Обзор</a></li>
+  <li><a href="/objects/application#application-configuration">Конфигурация</a></li>
+  <li><a href="/objects/application#slim-default-settings">Настройки по умолчанию</a></li>
 </ul>
 
 <h3 class="toc-title">Запрос</h3>
 <ul class="toc-links">
-  <li><a href="objects/request">Обзор</a></li>
-  <li><a href="objects/request#the-request-method">Метод</a></li>
-  <li><a href="objects/request#the-request-headers">Заголовки</a></li>
-  <li><a href="objects/request#the-request-body">Тело</a></li>
-  <li><a href="objects/request#uploaded-files">Загруженные файлы</a></li>
-  <li><a href="objects/request#request-helpers">Помощьники</a></li>
-  <li><a href="objects/request#route-object">Обьект маршрута</a></li>
-  <li><a href="objects/request#media-type-parsers">Анализаторы типов мультимедиа</a></li>
+  <li><a href="/objects/request">Обзор</a></li>
+  <li><a href="/objects/request#the-request-method">Метод</a></li>
+  <li><a href="/objects/request#the-request-headers">Заголовки</a></li>
+  <li><a href="/objects/request#the-request-body">Тело</a></li>
+  <li><a href="/objects/request#uploaded-files">Загруженные файлы</a></li>
+  <li><a href="/objects/request#request-helpers">Помощьники</a></li>
+  <li><a href="/objects/request#route-object">Обьект маршрута</a></li>
+  <li><a href="/objects/request#media-type-parsers">Анализаторы типов мультимедиа</a></li>
 </ul>
 
 <h3 class="toc-title">The Response</h3>
 <ul class="toc-links">
-  <li><a href="objects/response">Overview</a></li>
-  <li><a href="objects/response#the-response-status">Status</a></li>
-  <li><a href="objects/response#the-response-headers">Headers</a></li>
-  <li><a href="objects/response#the-response-body">Body</a></li>
-  <li><a href="objects/response#returning-json">JSON</a></li>
+  <li><a href="/objects/response">Overview</a></li>
+  <li><a href="/objects/response#the-response-status">Status</a></li>
+  <li><a href="/objects/response#the-response-headers">Headers</a></li>
+  <li><a href="/objects/response#the-response-body">Body</a></li>
+  <li><a href="/objects/response#returning-json">JSON</a></li>
 </ul>
 
 <h3 class="toc-title">Routing</h3>
 <ul class="toc-links">
-  <li><a href="objects/router">Overview</a></li>
-  <li><a href="objects/router#how-to-create-routes">Create Routes</a></li>
-  <li><a href="objects/router#route-callbacks">Callbacks</a></li>
-  <li><a href="objects/router#route-strategies">Strategies</a></li>
-  <li><a href="objects/router#route-placeholders">Placeholders</a></li>
-  <li><a href="objects/router#route-names">Names</a></li>
-  <li><a href="objects/router#route-groups">Groups</a></li>
-  <li><a href="objects/router#route-middleware">Middleware</a></li>
-  <li><a href="objects/router#container-resolution">Container Resolution</a></li>
+  <li><a href="/objects/router">Overview</a></li>
+  <li><a href="/objects/router#how-to-create-routes">Create Routes</a></li>
+  <li><a href="/objects/router#route-callbacks">Callbacks</a></li>
+  <li><a href="/objects/router#route-strategies">Strategies</a></li>
+  <li><a href="/objects/router#route-placeholders">Placeholders</a></li>
+  <li><a href="/objects/router#route-names">Names</a></li>
+  <li><a href="/objects/router#route-groups">Groups</a></li>
+  <li><a href="/objects/router#route-middleware">Middleware</a></li>
+  <li><a href="/objects/router#container-resolution">Container Resolution</a></li>
 </ul>
 
 
 <h3 class="toc-title">Error Handling</h3>
 <ul class="toc-links">
-  <li><a href="handlers/error">Error Handlers</a></li>
-  <li><a href="handlers/not-found">404 Not Found</a></li>
-  <li><a href="handlers/not-allowed">405 Not Allowed</a></li>
-  <li><a href="handlers/php-error">PHP Runtime Error</a></li>
+  <li><a href="/handlers/error">Error Handlers</a></li>
+  <li><a href="/handlers/not-found">404 Not Found</a></li>
+  <li><a href="/handlers/not-allowed">405 Not Allowed</a></li>
+  <li><a href="/handlers/php-error">PHP Runtime Error</a></li>
 </ul>
 
 <h3 class="toc-title">Cook book</h3>
 <ul class="toc-links">
-  <li><a href="cookbook/route-patterns">Trailing / in routes</a></li>
-  <li><a href="cookbook/ip-address">Retrieving IP address</a></li>
-  <li><a href="cookbook/retrieving-current-route">Retrieving Current Route</a></li>
-  <li><a href="cookbook/database-eloquent">Using Eloquent with Slim</a></li>
-  <li><a href="cookbook/enable-cors">Enabling CORS</a></li>
-  <li><a href="cookbook/environment">Getting and Mocking the Environment</a></li>
-  <li><a href="cookbook/uploading-files">Uploading Files using POST forms</a></li>
-  <li><a href="cookbook/action-domain-responder">Action-Domain-Responder with Slim</a></li>
+  <li><a href="/cookbook/route-patterns">Trailing / in routes</a></li>
+  <li><a href="/cookbook/ip-address">Retrieving IP address</a></li>
+  <li><a href="/cookbook/retrieving-current-route">Retrieving Current Route</a></li>
+  <li><a href="/cookbook/database-eloquent">Using Eloquent with Slim</a></li>
+  <li><a href="/cookbook/enable-cors">Enabling CORS</a></li>
+  <li><a href="/cookbook/environment">Getting and Mocking the Environment</a></li>
+  <li><a href="/cookbook/uploading-files">Uploading Files using POST forms</a></li>
+  <li><a href="/cookbook/action-domain-responder">Action-Domain-Responder with Slim</a></li>
 </ul>
 
 <h3 class="toc-title">Add Ons</h3>
 <ul class="toc-links">
-  <li><a href="features/templates">Templates</a></li>
-  <li><a href="features/caching">HTTP Caching</a></li>
-  <li><a href="features/csrf">CSRF Protection</a></li>
-  <li><a href="features/flash">Flash Messages</a></li>
-  <li><a href="https://github.com/slimphp/Slim/wiki/Middleware-for-Slim-Framework-v3.x/">3rd Party</a></li>
+  <li><a href="/features/templates">Templates</a></li>
+  <li><a href="/features/caching">HTTP Caching</a></li>
+  <li><a href="/features/csrf">CSRF Protection</a></li>
+  <li><a href="/features/flash">Flash Messages</a></li>
+  <li><a href="hphp/Slim/wiki/Middleware-for-Slim-Framework-v3.x/">3rd Party</a></li>
 </ul>
 
 <h3 class="toc-title">Contributing</h3>
 <ul class="toc-links">
-  <li><a href="contributors/strategy">Branching Strategy</a></li>
-  <li><a href="contributors/guidelines">Guidelines</a></li>
+  <li><a href="/contributors/strategy">Branching Strategy</a></li>
+  <li><a href="/contributors/guidelines">Guidelines</a></li>
 </ul>
