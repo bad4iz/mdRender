@@ -49,7 +49,7 @@
 <h3 class="toc-title">Концепции</h3>
 <ul class="toc-links">
   <li><a href="/concepts/value-objects">PSR 7</a></li>
-  <li><a href="/concepts/middleware">Промежуточное</a></li>
+  <li><a href="/concepts/middleware">Middleware (промежуточное)</a></li>
   <li><a href="/concepts/di">Контейнер зависимости</a></li>
 </ul>
 
