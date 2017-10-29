@@ -72,13 +72,13 @@
   <li><a href="/objects/request#media-type-parsers">Анализаторы типов мультимедиа</a></li>
 </ul>
 
-<h3 class="toc-title">The Response</h3>
+<h3 class="toc-title">Ответ</h3>
 <ul class="toc-links">
-  <li><a href="/objects/response">Overview</a></li>
-  <li><a href="/objects/response#the-response-status">Status</a></li>
-  <li><a href="/objects/response#the-response-headers">Headers</a></li>
-  <li><a href="/objects/response#the-response-body">Body</a></li>
-  <li><a href="/objects/response#returning-json">JSON</a></li>
+  <li><a href="/objects/response">Обзор</a></li>
+  <li><a href="/objects/response#the-response-status">Статус ответа</a></li>
+  <li><a href="/objects/response#the-response-headers">Заголовки ответов</a></li>
+  <li><a href="/objects/response#the-response-body">Тело ответа</a></li>
+  <li><a href="/objects/response#returning-json">Возвращение JSON</a></li>
 </ul>
 
 <h3 class="toc-title">Routing</h3>
