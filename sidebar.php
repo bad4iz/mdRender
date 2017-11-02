@@ -83,15 +83,15 @@
 
 <h3 class="toc-title">Routing</h3>
 <ul class="toc-links">
-  <li><a href="/objects/router">Overview</a></li>
-  <li><a href="/objects/router#how-to-create-routes">Create Routes</a></li>
+  <li><a href="/objects/router">Обзор</a></li>
+  <li><a href="/objects/router#how-to-create-routes">Создание</a></li>
   <li><a href="/objects/router#route-callbacks">Callbacks</a></li>
-  <li><a href="/objects/router#route-strategies">Strategies</a></li>
-  <li><a href="/objects/router#route-placeholders">Placeholders</a></li>
-  <li><a href="/objects/router#route-names">Names</a></li>
-  <li><a href="/objects/router#route-groups">Groups</a></li>
+  <li><a href="/objects/router#route-strategies">Сератегии</a></li>
+  <li><a href="/objects/router#route-placeholders">Заполнители</a></li>
+  <li><a href="/objects/router#route-names">Имена</a></li>
+  <li><a href="/objects/router#route-groups">Группы</a></li>
   <li><a href="/objects/router#route-middleware">Middleware</a></li>
-  <li><a href="/objects/router#container-resolution">Container Resolution</a></li>
+  <li><a href="/objects/router#container-resolution">Разрешение контейнера</a></li>
 </ul>
 
 
@@ -115,9 +115,9 @@
   <li><a href="/cookbook/action-domain-responder">Action-Domain-Responder with Slim</a></li>
 </ul>
 
-<h3 class="toc-title">Add Ons</h3>
+<h3 class="toc-title">Дополнения</h3>
 <ul class="toc-links">
-  <li><a href="/features/templates">Templates</a></li>
+  <li><a href="/features/templates">Шаблоны</a></li>
   <li><a href="/features/caching">HTTP Caching</a></li>
   <li><a href="/features/csrf">CSRF Protection</a></li>
   <li><a href="/features/flash">Flash Messages</a></li>
