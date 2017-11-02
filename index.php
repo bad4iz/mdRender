@@ -5,7 +5,7 @@ $Parsedown = new Parsedown();
 $title = '';
 $page = '';
 $routes = $_SERVER['REQUEST_URI'];
-echo $routes;
+
 if ($routes == '/') {
   $file = './md/index.md';
   $fileGIt = '/md/index.md';
