@@ -5,8 +5,9 @@ $Parsedown = new Parsedown();
 $title = '';
 $page = '';
 $routes = $_SERVER['REQUEST_URI'];
-if ($routes == '/'){
-  $file = '/md/index.md';
+echo $routes;
+if ($routes == '/') {
+  $file = './md/index.md';
   $fileGIt = '/md/index.md';
 
   $pageTmp = file_get_contents($file);
@@ -36,7 +37,7 @@ if ($routes == '/'){
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <title>Русская документация - Slim Framework</title>
-  <meta name="description" content=""/>
+  <meta name="description" content="Русская документация - Slim Framework"/>
   <meta name="robots" content="index, follow"/>
   <meta property="og:title" content="Русская документация - Slim Framework"/>
   <meta property="og:site_name" content="Русская документация - Slim Framework"/>
@@ -67,7 +68,8 @@ if ($routes == '/'){
       <hr/>
       <div class="col-md-8 docs-content">
         <div class="edit-panel" style="margin: 0 0 1em 0;">
-          <a href="https://github.com/bad4iz/slim.ru/blob/master<?=$fileGIt ?>" target="_blank" class="btn btn-default btn-xs"><i
+          <a href="https://github.com/bad4iz/slim.ru/blob/master<?= $fileGIt ?>" target="_blank"
+             class="btn btn-default btn-xs"><i
                     class="fa fa-github"></i> редактировать страницу </a>
         </div>
         <?= $Parsedown->text($page); ?>
