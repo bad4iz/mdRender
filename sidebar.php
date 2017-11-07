@@ -95,12 +95,12 @@
 </ul>
 
 
-<h3 class="toc-title">Error Handling</h3>
+<h3 class="toc-title">Обработка ошибок</h3>
 <ul class="toc-links">
-  <li><a href="/handlers/error">Error Handlers</a></li>
-  <li><a href="/handlers/not-found">404 Not Found</a></li>
-  <li><a href="/handlers/not-allowed">405 Not Allowed</a></li>
-  <li><a href="/handlers/php-error">PHP Runtime Error</a></li>
+  <li><a href="/handlers/error">Обработчики ошибок</a></li>
+  <li><a href="/handlers/not-found">404 не найдено</a></li>
+  <li><a href="/handlers/not-allowed">405 нет доступа</a></li>
+  <li><a href="/handlers/php-error">ошибка выполнения Runtime PHP</a></li>
 </ul>
 
 <h3 class="toc-title">Cook book</h3>
