@@ -111,7 +111,7 @@
   <li><a href="/cookbook/database-eloquent">Using Eloquent with Slim</a></li>
   <li><a href="/cookbook/enable-cors">Enabling CORS</a></li>
   <li><a href="/cookbook/environment">Getting and Mocking the Environment</a></li>
-  <li><a href="/cookbook/uploading-files">Uploading Files using POST forms</a></li>
+  <li><a href="/cookbook/uploading-files">Загрузка файлов с использованием форм POST</a></li>
   <li><a href="/cookbook/action-domain-responder">Action-Domain-Responder with Slim</a></li>
 </ul>
 
