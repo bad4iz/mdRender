@@ -36,14 +36,14 @@ if ($routes == '/') {
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>Русская документация - Slim Framework</title>
-  <meta name="description" content="Русская документация - Slim Framework"/>
+  <title><?= $title; ?> - Русская документация - Slim Framework</title>
+  <meta name="description" content="<?= $title; ?> - Русская документация - Slim Framework"/>
   <meta name="robots" content="index, follow"/>
-  <meta property="og:title" content="Русская документация - Slim Framework"/>
-  <meta property="og:site_name" content="Русская документация - Slim Framework"/>
-  <meta property="og:url" content="http://slimframework.bad4iz.ru"/>
-  <meta property="og:description" content="Русская документация - Slim Framework"/>
-  <meta property="og:type" content="Русская документация - Slim Framework"/>
+  <meta property="og:title" content="<?= $title; ?> - Русская документация - Slim Framework"/>
+  <meta property="og:site_name" content="<?= $title; ?> - Русская документация - Slim Framework"/>
+  <meta property="og:url" content="http://slimframework.ru"/>
+  <meta property="og:description" content="<?= $title; ?> - Русская документация - Slim Framework"/>
+  <meta property="og:type" content="<?= $title; ?> - Русская документация - Slim Framework"/>
   <link rel="stylesheet" href="/assets/css/all.css"/>
   <link rel="shortcut icon" href="/assets/images/favicon.png"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
