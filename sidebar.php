@@ -105,7 +105,7 @@
 
 <h3 class="toc-title">Cook book</h3>
 <ul class="toc-links">
-  <li><a href="/cookbook/route-patterns">Trailing / in routes</a></li>
+  <li><a href="/cookbook/route-patterns">Завершение / в роутах</a></li>
   <li><a href="/cookbook/ip-address">Retrieving IP address</a></li>
   <li><a href="/cookbook/retrieving-current-route">Retrieving Current Route</a></li>
   <li><a href="/cookbook/database-eloquent">Using Eloquent with Slim</a></li>
