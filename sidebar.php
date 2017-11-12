@@ -107,7 +107,7 @@
 <ul class="toc-links">
   <li><a href="/cookbook/route-patterns">Завершение / в роутах</a></li>
   <li><a href="/cookbook/ip-address">Retrieving IP address</a></li>
-  <li><a href="/cookbook/retrieving-current-route">Retrieving Current Route</a></li>
+  <li><a href="/cookbook/retrieving-current-route">Получение текущего маршрута</a></li>
   <li><a href="/cookbook/database-eloquent">Using Eloquent with Slim</a></li>
   <li><a href="/cookbook/enable-cors">Enabling CORS</a></li>
   <li><a href="/cookbook/environment">Getting and Mocking the Environment</a></li>
