@@ -108,7 +108,7 @@
   <li><a href="/cookbook/route-patterns">Завершение / в роутах</a></li>
   <li><a href="/cookbook/ip-address">Retrieving IP address</a></li>
   <li><a href="/cookbook/retrieving-current-route">Получение текущего маршрута</a></li>
-  <li><a href="/cookbook/database-eloquent">Using Eloquent with Slim</a></li>
+  <li><a href="/cookbook/database-eloquent">Использование Eloquent вместе со Slim</a></li>
   <li><a href="/cookbook/enable-cors">Enabling CORS</a></li>
   <li><a href="/cookbook/environment">Getting and Mocking the Environment</a></li>
   <li><a href="/cookbook/uploading-files">Загрузка файлов с использованием форм POST</a></li>
