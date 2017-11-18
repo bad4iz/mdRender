@@ -112,7 +112,7 @@
   <li><a href="/cookbook/enable-cors">Включение CORS</a></li>
   <li><a href="/cookbook/environment">Getting и Mocking окружение</a></li>
   <li><a href="/cookbook/uploading-files">Загрузка файлов с использованием форм POST</a></li>
-  <li><a href="/cookbook/action-domain-responder">Action-Domain-Responder with Slim</a></li>
+  <li><a href="/cookbook/action-domain-responder">Action-Domain-Responder с Slim</a></li>
 </ul>
 
 <h3 class="toc-title">Дополнения</h3>
