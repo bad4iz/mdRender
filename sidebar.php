@@ -117,11 +117,11 @@
 
 <h3 class="toc-title">Дополнения</h3>
 <ul class="toc-links">
-  <li><a href="/features/templates">Шаблоны</a></li>
-  <li><a href="/features/caching">HTTP Caching</a></li>
-  <li><a href="/features/csrf">CSRF Protection</a></li>
+  <li><a href="/features/templates">Шаблонизаторы</a></li>
+  <li><a href="/features/caching">Кэширование HTTP</a></li>
+  <li><a href="/features/csrf">Защита CSRF</a></li>
   <li><a href="/features/flash">Flash Messages</a></li>
-  <li><a href="hphp/Slim/wiki/Middleware-for-Slim-Framework-v3.x/">3rd Party</a></li>
+  <li><a href="https://github.com/slimphp/Slim/wiki/Middleware-for-Slim-Framework-v3.x">3rd Party</a></li>
 </ul>
 
 <h3 class="toc-title">Contributing</h3>
