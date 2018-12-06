@@ -67,7 +67,7 @@
   <li><a href="/objects/request#the-request-headers">Заголовки запросов</a></li>
   <li><a href="/objects/request#the-request-body">Тело запроса</a></li>
   <li><a href="/objects/request#uploaded-files">Загруженные файлы</a></li>
-  <li><a href="/objects/request#request-helpers">Помощьники</a></li>
+  <li><a href="/objects/request#request-helpers">Помощники</a></li>
   <li><a href="/objects/request#route-object">Обьект роутера</a></li>
   <li><a href="/objects/request#media-type-parsers">Анализаторы типов мультимедиа</a></li>
 </ul>
